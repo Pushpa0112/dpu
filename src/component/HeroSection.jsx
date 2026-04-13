@@ -22,11 +22,11 @@ const HeroSection = ({ onOpenModal }) => {
             mobile: form.mobile.value,
             city: form.city.value,
             programme: form.program.value,
-            source_name: "DPU_ADs",
-            source_id: "446",
+            source_name: "",
+            source_id: "",
             university_code: "",
-            university_name: "DPU Online",
-            supplier_id: "SN00000003"
+            university_name: "",
+            supplier_id: ""
         };
         try {
             const res = await fetch('/api/nmims-lead', {
