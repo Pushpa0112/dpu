@@ -16,7 +16,7 @@ const Footer = ({ onOpenModal }) => {
 
                     {/* Column 1: Brand & About */}
                     <div className="space-y-6">
-                        {/* Updated Logos Container - Edukyu removed */}
+                        
                         <div className="bg-white rounded-lg px-4 py-2 flex items-center shadow-sm w-fit">
                             {/* DPU Logo */}
                             <img

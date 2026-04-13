@@ -49,11 +49,11 @@ const CounsellingModal: React.FC<CounsellingModalProps> = ({ isOpen, onClose }) 
           email,
           city: state,
           programme: course,
-          source_name: "DPU_ADs",
-          source_id: "446",
+          source_name: "",
+          source_id: "",
           university_code: "",
-          university_name: "DPU Online",
-          supplier_id: "SN00000003"
+          university_name: "",
+          supplier_id: ""
         })
       });
       const result = await response.json();
